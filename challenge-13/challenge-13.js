@@ -44,7 +44,7 @@
   Crie um novo array chamado `newSul`, que receba somente os estados do sul,
   pegando do array `brasil`. Não remova esses itens de `brasil`.
   */
-  //var newSul = brasil.slice(2,5) //com slice
+  //var newSul = brasil.slice(2, 5) //com slice
   var newSul = filtraRegiao(sul)
 
   function filtraRegiao(regiao) {
